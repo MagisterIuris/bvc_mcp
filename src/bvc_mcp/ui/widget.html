@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Amorce Markets</title>
+  <style>
+__WIDGET_CSS__
+  </style>
+</head>
+<body>
+  <div class="app-shell" id="app-shell" data-surface="inline">
+    <header class="topbar">
+      <div class="brand-lockup">
+        <div class="wordmark" aria-hidden="true">AMORCE</div>
+        <div class="brand-copy">
+          <strong>Markets</strong>
+          <span>Live Casablanca market intelligence rendered natively inside ChatGPT.</span>
+        </div>
+      </div>
+      <div class="brand-chip">Casablanca Live</div>
+    </header>
+
+    <main class="content" id="content">
+      <section class="result-frame">
+        <div class="result-head">
+          <div class="result-copy">
+            <div class="result-eyebrow" id="result-eyebrow">Market surface</div>
+            <h1 class="result-title" id="result-title">Preparing your premium market view</h1>
+            <p class="result-note" id="result-note">The widget will switch to the best surface for the active BVC tool result as soon as ChatGPT provides it.</p>
+          </div>
+          <div class="badge" id="result-badge" data-tone="neutral">Loading</div>
+        </div>
+        <div class="result-body" id="result-body"></div>
+      </section>
+    </main>
+  </div>
+
+  <script>
+__WIDGET_JS__
+  </script>
+</body>
+</html>
